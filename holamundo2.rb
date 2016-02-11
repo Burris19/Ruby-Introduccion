@@ -13,7 +13,11 @@ class HolaMundo
 	end
 
 	def saluda()
-		puts "Hola Mundo" #Imprimimos el mensaje "Hola Mundo"
+
+		mensaje = "Hola Mundo" #Creacion de una variables
+
+		puts mensaje #Imprimimos el mensaje "Hola Mundo"
+
 	end
 
 end
