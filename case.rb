@@ -6,18 +6,18 @@ class HolaMundo
 	def saluda()
 		edad = 2
 		
-		#case edad
-		#when 0..11 then
-		#	puts "Eres un nino"
-		#when 12..17 then
-		#	puts "Eres un joven"
-		#when 18..45 then
-		#	puts "Eres un adulto"
-		#when 46..60 then
-		#	puts "Adulto mayor"
-		#else
-		#	puts "Error en la variable"
-		#end
+		case edad
+		when 0..11 then
+			puts "Eres un nino"
+		when 12..17 then
+			puts "Eres un joven"
+		when 18..45 then
+			puts "Eres un adulto"
+		when 46..60 then
+			puts "Adulto mayor"
+		else
+			puts "Error en la variable"
+		end
 
 		respuesta = case edad
 		when 0..11 then
@@ -29,6 +29,10 @@ class HolaMundo
 		end
 
 		puts respuesta
+
+
+
+
 
 	end
 end
