@@ -3,6 +3,15 @@
 	Aqui hacemos la definicion de la clase Hola Mundo
 	Colocamos el metodo constructor
 	Creamos un metodo saluda
+
+	conversiones
+
+	to_i convierte a enteros
+	to_f convierte a flotante
+	to_x convierte a cadenas
+
+	to_str
+	to_int
 	
 =end
 
