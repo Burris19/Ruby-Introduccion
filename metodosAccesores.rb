@@ -6,3 +6,5 @@ dog.nombre = 'Nuevo Nombre'
 
 puts dog.nombre
 
+puts dog.raza
+

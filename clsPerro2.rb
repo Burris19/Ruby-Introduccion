@@ -24,7 +24,6 @@ class Perro
 	#	@nombre = nombre
 	#end
 
-
-	attr_accessor :nombre
+	attr_accessor :nombre,:raza
 
 end
